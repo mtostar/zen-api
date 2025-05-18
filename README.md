@@ -108,7 +108,7 @@ Host your own instance of anime-api on Render.
 
 <a name="get-home-info"></a>
 <details>
-<summary><strong>GET Home Info</strong></summary>
+<summary><strong>Home Info</strong></summary>
 
 ```bash
 GET /api/home
@@ -242,7 +242,7 @@ console.log(resp.data);
 
 <a name="get-top-10-animes-info"></a>
 <details>
-<summary><strong>GET Top 10 Anime's Info</strong></summary>
+<summary><strong>Top 10 Anime's Info</strong></summary>
 
 ```bash
 GET /api/top-ten
@@ -309,7 +309,7 @@ console.log(resp.data);
 
 <a name="get-top-search"></a>
 <details>
-<summary><strong>GET Top Search</strong></summary>
+<summary><strong>Top Search</strong></summary>
 
 ```bash
 GET /api/top-search
@@ -341,7 +341,7 @@ console.log(resp.data);
 
 <a name="get-specified-animes-info"></a>
 <details>
-<summary><strong>GET Specified Anime's Info</strong></summary>
+<summary><strong>Specified Anime's Info</strong></summary>
 
 ```bash
 GET /api/info?id={string}
@@ -406,7 +406,7 @@ console.log(resp.data);
 
 <a name="get-random-animes-info"></a>
 <details>
-<summary><strong>GET Random Anime's Info</strong></summary>
+<summary><strong>Random Anime's Info</strong></summary>
 
 ```bash
 GET /api/random
@@ -507,7 +507,7 @@ console.log(resp.data);
 
 <a name="get-categories-info"></a>
 <details>
-<summary><strong>GET Categories Info</strong></summary>
+<summary><strong>Categories Info</strong></summary>
 
 ```bash
 GET /api/<category>
@@ -667,7 +667,7 @@ console.log(resp.data);
 
 <a name="get-anime-of-specific-producers-or-studio"></a>
 <details>
-<summary><strong>GET Anime of specific producers or studio</strong></summary>
+<summary><strong>Anime of specific producers or studio</strong></summary>
 
 ```bash
 GET /api/<producer>/
@@ -740,7 +740,7 @@ console.log(resp.data);
 
 <a name="get-search-results-info"></a>
 <details>
-<summary><strong>GET Search Result's Info</strong></summary>
+<summary><strong>Search Result's Info</strong></summary>
 
 ```bash
 GET /api/search
@@ -792,7 +792,7 @@ console.log(resp.data);
 
 <a name="get-search-suggestions"></a>
 <details>
-<summary><strong>GET Search Suggestions</strong></summary>
+<summary><strong>Search Suggestions</strong></summary>
 
 ```bash
 GET /api/search/suggest
@@ -848,7 +848,7 @@ console.log(resp.data);
 
 <a name="get-filter-anime"></a>
 <details>
-<summary><strong>GET Filter Anime</strong></summary>
+<summary><strong>Filter Anime</strong></summary>
 
 ```bash
 GET /api/filter
@@ -926,7 +926,7 @@ console.log(resp.data);
 
 <a name="get-animes-episode-list"></a>
 <details>
-<summary><strong>GET Anime's Episode List</strong></summary>
+<summary><strong>Anime's Episode List</strong></summary>
 
 ```bash
 GET /api/episodes/
@@ -972,7 +972,7 @@ console.log(resp.data);
 
 <a name="get-anime-schedule"></a>
 <details>
-<summary><strong>GET Anime Schedule</strong></summary>
+<summary><strong>Anime Schedule</strong></summary>
 
 ```bash
 GET /api/schedule
@@ -1019,7 +1019,7 @@ console.log(resp.data);
 
 <a name="get-animes-next-episodes-schedule"></a>
 <details>
-<summary><strong>GET Anime's Next Episode's Schedule</strong></summary>
+<summary><strong>Anime's Next Episode's Schedule</strong></summary>
 
 ```bash
 GET /api/schedule/
@@ -1056,7 +1056,7 @@ console.log(resp.data);
 
 <a name="get-qtip-info"></a>
 <details>
-<summary><strong>GET Qtip Info</strong></summary>
+<summary><strong>Qtip Info</strong></summary>
 
 ```bash
 GET /api/qtip/
@@ -1105,7 +1105,7 @@ console.log(resp.data);
 
 <a name="get-characters"></a>
 <details>
-<summary><strong>GET Characters</strong></summary>
+<summary><strong>Characters</strong></summary>
 
 ```bash
 GET /api/character/list/
@@ -1165,7 +1165,7 @@ console.log(resp.data);
 
 <a name="get-streaming-info"></a>
 <details>
-<summary><strong>GET Streaming Info</strong></summary>
+<summary><strong>Streaming Info</strong></summary>
 
 ```bash
 GET /api/stream
@@ -1232,7 +1232,7 @@ console.log(resp.data);
 
 <a name="get-available-servers-of-anime"></a>
 <details>
-<summary><strong>GET Available Servers of Anime</strong></summary>
+<summary><strong>Available Servers of Anime</strong></summary>
 
 ```bash
 GET /api/servers/
@@ -1276,7 +1276,7 @@ console.log(resp.data);
 
 <a name="get-character-details"></a>
 <details>
-<summary><strong>GET Character Details</strong></summary>
+<summary><strong>Character Details</strong></summary>
 
 ```bash
 GET /api/character/
@@ -1351,7 +1351,7 @@ console.log(resp.data);
 
 <a name="get-voice-actor-details"></a>
 <details>
-<summary><strong>GET Voice Actor Details</strong></summary>
+<summary><strong>Voice Actor Details</strong></summary>
 
 ```bash
 GET /api/actors/
@@ -1431,4 +1431,3 @@ If you discover any issues or have suggestions for improvement, please open an i
   Currently managed by <a href="https://github.com/PacaHat" target="_blank">PacaHat</a><br>
   Made by <a href="https://github.com/itzzzme" target="_blank">itzzzme</a>
 </p>
-
