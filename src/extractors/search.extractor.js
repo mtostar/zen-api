@@ -49,7 +49,7 @@ async function extractSearchResults(search, page) {
           .find(".film-detail .film-name .dynamic-name")
           ?.text()
           ?.trim(),
-        japanese_title:
+        jname:
           $(el)
             .find(".film-detail .film-name .dynamic-name")
             ?.attr("data-jname")

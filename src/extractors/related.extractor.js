@@ -15,7 +15,7 @@ export default async function extractRelatedData($) {
           .find(".film-detail .film-name a")
           .text()
           .trim();
-        const japanese_title = $(element)
+        const jname = $(element)
           .find(".film-detail .film-name a")
           .attr("data-jname")
           .trim();
@@ -58,7 +58,7 @@ export default async function extractRelatedData($) {
           data_id,
           id,
           title,
-          japanese_title,
+          jname,
           poster,
           tvInfo,
           adultContent,

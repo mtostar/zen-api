@@ -45,7 +45,7 @@ async function extractAnimeInfo(id) {
     const overviewElement = $("#ani_detail .film-description .text");
 
     const title = titleElement.text().trim();
-    const japanese_title = titleElement.attr("data-jname");
+    const jname = titleElement.attr("data-jname");
     const synonyms = $('.item.item-title:has(.item-head:contains("Synonyms")) .name').text().trim();
     const poster = posterElement.find("img").attr("src");
     const syncDataScript = $("#syncData").html();
@@ -152,7 +152,7 @@ async function extractAnimeInfo(id) {
       anilistId,
       malId,
       title,
-      japanese_title,
+      jname,
       synonyms,
       poster,
       showType,

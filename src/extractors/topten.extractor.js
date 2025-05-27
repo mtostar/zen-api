@@ -18,7 +18,7 @@ async function extractTopTen() {
           const number = $(".film-number>span", element).text().trim();
           const title = $(".film-detail>.film-name>a", element).text().trim();
           const poster = $(".film-poster>img", element).attr("data-src");
-          const japanese_title = $(".film-detail>.film-name>a", element)
+          const jname = $(".film-detail>.film-name>a", element)
             .attr("data-jname")
             .trim();
           const data_id = $(".film-poster", element).attr("data-id");
@@ -34,7 +34,7 @@ async function extractTopTen() {
             return info;
           }, {});
 
-          return { id, data_id, number, title, japanese_title, poster, tvInfo };
+          return { id, data_id, number, title, jname, poster, tvInfo };
         })
         .get();
 

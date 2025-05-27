@@ -107,7 +107,7 @@ async function extractFilterResults(params = {}) {
           $el.find(".film-poster .film-poster-img").attr("src") ||
           null,
         title: $el.find(".film-name .dynamic-name").text().trim(),
-        japanese_title:
+        jname:
           $el.find(".film-name .dynamic-name").attr("data-jname") || null,
         tvInfo: {
           showType:

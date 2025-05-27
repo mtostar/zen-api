@@ -16,7 +16,7 @@ async function getSuggestions(keyword) {
         const data_id = id.split("-").pop();
         const poster = $(element).find(".film-poster-img").attr("data-src");
         const title = $(element).find(".film-name").text().trim();
-        const japanese_title = $(element).find(".film-name").attr("data-jname").trim();
+        const jname = $(element).find(".film-name").attr("data-jname").trim();
         const releaseDate = $(element)
           .find(".film-infor span")
           .first()
@@ -35,7 +35,7 @@ async function getSuggestions(keyword) {
           data_id,
           poster,
           title,
-          japanese_title,
+          jname,
           releaseDate,
           showType,
           duration,

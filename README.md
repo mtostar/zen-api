@@ -139,7 +139,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "description": string,
         "tvInfo": {
           "showType": string,
@@ -158,22 +158,9 @@ console.log(resp.data);
         "number": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
       }
       {...}
-    ],
-    "today":[
-      "schedule":[
-        {
-          "id":string,
-          "data_id":number,
-          "title":string,
-          "japanese_title":string,
-          "releaseDate":string,
-          "time":string,
-          "episode_no":number,
-        },{...}
-      ]
     ],
     "topAiring":[
       {
@@ -181,7 +168,7 @@ console.log(resp.data);
         "data_id":number,
         "poster":string,
         "title":string,
-        "japanese_title":string,
+        "jname":string,
         "description":string,
         tvInfo:[object]
       }
@@ -192,17 +179,18 @@ console.log(resp.data);
         "data_id":number,
         "poster":string,
         "title":string,
-        "japanese_title":string,
+        "jname":string,
         "description":string,
         tvInfo:[object]
       },
+    ]
     "mostFavorite":[
       {
         "id":string,
         "data_id":number,
         "poster":string,
         "title":string,
-        "japanese_title":string,
+        "jname":string,
         "description":string,
         tvInfo:[object]
       }
@@ -213,7 +201,7 @@ console.log(resp.data);
         "data_id":number,
         "poster":string,
         "title":string,
-        "japanese_title":string,
+        "jname":string,
         "description":string,
         tvInfo:[object]
       }
@@ -224,7 +212,7 @@ console.log(resp.data);
         "data_id":number,
         "poster":string,
         "title":string,
-        "japanese_title":string,
+        "jname":string,
         "description":string,
         tvInfo:[object]
       }
@@ -369,7 +357,7 @@ console.log(resp.data);
       "id":string,
       "data_id": number,
       "title": string,
-      "japanese_title": string,
+      "jname": string,
       "poster": string,
       "showType":string,
       "animeInfo": {
@@ -393,7 +381,7 @@ console.log(resp.data);
         "data_id": number,
         "season": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "season_poster": string
       },
       {...}
@@ -434,7 +422,7 @@ console.log(resp.data);
       "id":string,
       "data_id": number,
       "title": string,
-      "japanese_title": string,
+      "jname": string,
       "poster": string,
       "showType":string,
       "animeInfo": {
@@ -458,7 +446,7 @@ console.log(resp.data);
           "data_id": "number",
           "id": "string",
           "title": "string",
-          "japanese_title": "string",
+          "jname": "string",
           "poster": "string",
           "tvInfo": {
               "dub": "number",
@@ -476,7 +464,7 @@ console.log(resp.data);
           "data_id": "number",
           "id": "string",
           "title": "string",
-          "japanese_title": "string",
+          "jname": "string",
           "poster": "string",
           "tvInfo": {
               "dub": "number",
@@ -494,7 +482,7 @@ console.log(resp.data);
         "data_id": number,
         "season": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "season_poster": string
       },
       {...}
@@ -631,7 +619,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "description": string,
         "tvInfo": {
           "showType": string,
@@ -646,7 +634,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "description": string,
         "tvInfo": {
           "showType": sting,
@@ -704,7 +692,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "description": string,
         "tvInfo": {
           "showType": string,
@@ -719,7 +707,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "description": string,
         "tvInfo": {
           "showType": sting,
@@ -773,7 +761,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "tvInfo": [Object]
       },
     {
@@ -781,7 +769,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "tvInfo": [Object]
       },
     {...}
@@ -825,7 +813,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "releaseDate": string,
         "showType": string,
         "duration": string,
@@ -835,7 +823,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "releaseDate": string,
         "showType": string,
         "duration": string,
@@ -907,7 +895,7 @@ console.log(resp.data);
         "data_id": number,
         "poster": string,
         "title": string,
-        "japanese_title": string,
+        "jname": string,
         "description": string,
         "tvInfo": {
           "showType": string,
@@ -961,7 +949,7 @@ console.log(resp.data);
       "data_id": number,
       "jname": string,
       "title": string,
-      "japanese_title": string
+      "jname": string
     },
     {...}
     ]
@@ -1004,7 +992,7 @@ console.log(resp.data);
       "id":string,
       "data_id":number,
       "title":string,
-      "japanese_title":string,
+      "jname":string,
       "releaseDate":string,
       "time":string,
       "episode_no":number

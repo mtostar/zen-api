@@ -24,7 +24,7 @@ async function extractSpotlights() {
           )
           .text()
           .trim();
-        const japanese_title = $(ele)
+        const jname = $(ele)
           .find(
             "div.deslide-item > div.deslide-item-content > div.desi-head-title"
           )
@@ -85,7 +85,7 @@ async function extractSpotlights() {
           data_id,
           poster,
           title,
-          japanese_title,
+          jname,
           description,
           tvInfo,
         };

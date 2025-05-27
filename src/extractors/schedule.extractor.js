@@ -48,7 +48,7 @@ export default async function extractFullScheduleInfo(date) {
       const id = href.split("?")[0].replace("/", "");
       const data_id = id.split("-").pop();
       const title = $el.find(".film-name").text().trim();
-      const japanese_title = $el.find(".film-name").attr("data-jname")?.trim() || "";
+      const jname = $el.find(".film-name").attr("data-jname")?.trim() || "";
       const time = $el.find(".time").text().trim();
       const episode_no = parseInt($el.find(".btn-play").text().trim().split(" ").pop(), 10);
 
@@ -56,7 +56,7 @@ export default async function extractFullScheduleInfo(date) {
         id,
         data_id,
         title,
-        japanese_title,
+        jname,
         releaseDate: date,
         time,
         episode_no,

@@ -16,7 +16,7 @@ export const getWatchlist = async (req, res) => {
           data_id: item.data_id,
           poster: item.poster,
           title: item.title,
-          japanese_title: item.japanese_title,
+          jname: item.jname,
           description: item.description,
           tvInfo: {
             showType: item.tvInfo.showType,

@@ -41,7 +41,7 @@ async function extractPage(page, params) {
             .first();
           const poster = $(".film-poster>img", element).attr("data-src");
           const title = $(".film-detail .film-name", element).text();
-          const japanese_title = $(".film-detail>.film-name>a", element).attr(
+          const jname = $(".film-detail>.film-name>a", element).attr(
             "data-jname"
           );
           const description = $(".film-detail .description", element)
@@ -74,7 +74,7 @@ async function extractPage(page, params) {
             data_id,
             poster,
             title,
-            japanese_title,
+            jname,
             description,
             tvInfo,
             adultContent,
