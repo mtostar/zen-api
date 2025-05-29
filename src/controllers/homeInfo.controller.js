@@ -32,7 +32,6 @@ export const getHomeInfo = async (req,res) => {
       getSpotlights(),
       getTrending(),
       extractTopTen(),
-      extractSchedule(new Date().toISOString().split("T")[0]),
       extractPage(1, "top-airing"),
       extractPage(1, "most-popular"),
       extractPage(1, "most-favorite"),
