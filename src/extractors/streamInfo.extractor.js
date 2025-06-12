@@ -1,8 +1,9 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 import { v1_base_url } from "../utils/base_v1.js";
-import decryptMegacloud from "../parsers/decryptors/megacloud.decryptor.js";
-import AniplayExtractor from "../parsers/aniplay.parser.js";
+// import decryptMegacloud from "../parsers/decryptors/megacloud.decryptor.js";
+// import AniplayExtractor from "../parsers/aniplay.parser.js";
+import { decryptSources_v1 } from "../parsers/decryptors/decrypt_v1.decryptor.js";
 
 export async function extractServers(id) {
   try {
@@ -51,7 +52,7 @@ async function extractStreamingInfo(id, name, type) {
         `No matching server found for name: ${name}, type: ${type}`
       );
     }
-    const streamingLink = await decryptMegacloud(
+    const streamingLink = await decryptSources_v1(
       requestedServer[0].data_id,
       name,
       type
