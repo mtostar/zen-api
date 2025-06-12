@@ -808,4 +808,4 @@ export default async function decryptMegacloud(id, name, type) {
   } catch (error) {
     console.error("Error during decryption:", error);
   }
-      }
+}
